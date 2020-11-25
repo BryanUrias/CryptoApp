@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700&family=Source+Sans+Pro:wght@300&display=swap');
+
+
+body {
+    overflow-x: hidden;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #7f1f7f;
+    height: auto;
+    /*display: flex;*/
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    /* background: linear-gradient(rgb(156, 221, 230), rgb(48,62,143)); */
+    background-color: #343a40;
+    
+}
+
+img {
+    height: 2rem;
+}
+
+#home > div.caption.text-center > a{
+    color: purple;
+    border: purple;
+    font-size: 2rem;
+}
+
+.navbar{
+    text-transform: uppercase;
+    font-size: 800;
+    font-size: 1.3rem;
+    letter-spacing: .1rem;
+    background: rgba(0 0,0,.5)!important;
+
+}
+
+.navbar-nav li {
+    padding-top: .5rem;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+    padding-top: .6rem;
+}
+
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #cb3cbf
+}
+
+
+.narrow {
+    width: 80%;
+    margin: 2rem auto;
+    padding-top: 3rem;
+}
+
+.narrow h2 {
+    font-size: 4rem;
+    padding-bottom: 5rem;
+    text-transform: uppercase;
+}
+
+.home-inner {
+    background-image: url(img/bitcoinBackground2.jpg);
+}
+
+
+.caption {
+    
+    width: 100%;
+    max-width: 100%;
+    position: absolute;
+    top: 40%;
+    /* Z index will let me display over content just FYI */
+    z-index: 1;
+    color: white;
+    text-transform: uppercase;
+    font-size: 8rem;
+   
+}
+
+.caption h1 {
+    font-size: 7rem;
+    font-weight: 900;
+    letter-spacing: .1rem;
+    color: #f12b2b;
+    text-shadow: .1rem, .1rem, .6rem rgb(139, 59, 131);
+}
+
+.caption h4 {
+    font-size: 5rem;
+    text-shadow: .1rem, .1rem, .6rem black;
+    color: #d443d4;
+    border-color: purple;
+}
+
+btn-lg {
+   font-size: 2rem;
+   border-radius: 0;
+   
+}
+
+.jumbotron {
+    border-radius: 0;
+}
+
+.fixed {
+    background-image: url(img/wallstreet.jpeg);
+    z-index: -1;
+}
+
+#dark{
+    background-color: rgba(0,0,0, .6);
+}
+
+.fixed-background {
+    padding-top: 3rem;
+    color: white;
+    padding-bottom: 5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+#home > div.team > div > div.row.dark.text-center > div.col-12.text-center > h3 {
+    text-transform: uppercase;
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+    font-size: 4rem;
+}
+
+#footer{
+    background-color: #343a40;
+    color: white;
+    padding: 2rem 0 2rem;
+    margin-top: 2rem;
+}
+
+#teamRow {
+    margin: 10%
+}
+
+
+
+.card-title {
+    text-decoration: underline;
+} 
+
+.dropdown-item:hover{
+    background-color: rgb(81, 199, 235);
+}
+.btn {
+    margin-left: 5px;
+    margin-top: 5%;
+}
+
+.card {
+    margin: 0 auto;
+}
+
+.col {
+    margin: 0 auto;
+}
+
+.mb-3{
+    height: 200px;
+}
+
+#signIn {
+    width: 50%;
+    margin-bottom: 5%;
+    margin-top: 2%;
+}
+
+.card-body{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+} 
+
+.container-fluid {
+    background-color: rgba(0,0,0, .1);
+}
+
